@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <style>
+
+        * {
+            border: 1px dashed yellow;
+        }
         body {
+            font-size: 16px;
             color: red;
             background-color: gray;
         }
@@ -14,9 +19,22 @@
         p {
             color:DarkSeaGreen
         }
+        .image {
+            border: 1px double black;
+            width:33%;
+            border-radius: 1rem;
+        }
 
+        .first-article {
+            width:50%
+        }
+
+        .main-paragraph {
+            width:16rem;
+        }
         .main-paragraph:hover {
-            background: DarkMagenta;
+            background: rgba(255, 125, 125, 0.4);
+            font-size: 2rem;
         }
 
         a[href=".about-me.html"]:hover {
@@ -35,17 +53,24 @@
 <body>
 
     <headline>Website Title Text</headline>
-
+    <article class="first-article">
+        
     <p class= "main-paragraph">Vestibulum quis dui sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec id neque nisi.
         Nunc congue malesuada ex, ut aliquet enim accumsan in. Praesent in neque commodo, auctor nisi et, molestie ante.
         Phasellus consectetur, urna quis dapibus accumsan, ex ante ultrices neque, vel maximus felis ipsum sit amet
         ligula. Vestibulum sem turpis, sodales vitae dolor dapibus, sollicitudin lobortis leo. Vestibulum vestibulum
         commodo eleifend.</p>
+    </article>
+
+    
 
     <p class="second-paragraph">Vestibulum quis dui sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec id neque nisi.
         Nunc congue malesuada ex, ut aliquet enim accumsan in. Praesent in neque commodo, auctor nisi et, molestie ante.
         Phasellus consectetur, urna quis dapibus accumsan, ex ante ultrices neque, vel maximus felis ipsum sit amet
         ligula. Vestibulum sem turpis, sodales vitae dolor dapibus, sollicitudin lobortis leo.</p>
+    
+    <img class="image" src="images/corgi2.jpg" alt="Two corgis">
+    <img class="image" src="images/corgi1.jpg" alt= "Pembroke Welsh Corgi">
     
     <a href=".about-me.html">About Me</a>
 
