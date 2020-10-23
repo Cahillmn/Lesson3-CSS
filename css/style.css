@@ -1,0 +1,52 @@
+
+        * {
+            border: 1px dashed yellow;
+        }
+
+        body {
+            font-size: 16px;
+            color: red;
+            background-color: gray;
+        }
+
+        p {
+            color: DarkSeaGreen
+        }
+
+        .image {
+            border: 1px double black;
+            width: 33%;
+            border-radius: 1rem;
+        }
+
+        .second-paragraph {
+            width: 75%;
+            color:red;
+        }
+
+        .first-article {
+            width: 75%
+           
+        }
+
+        .main-paragraph {
+            width: 16rem;
+            text-align:justify;
+            padding: 1rem;
+            border:solid blue;
+            margin:12px;
+        }
+
+        .main-paragraph:hover {
+            background: rgba(255, 125, 125, 0.4);
+            font-size: 2rem;
+        }
+
+        a[href=".about-me.html"]:hover {
+            color: yellow;
+        }
+
+        a[href=".contact.html"] {
+            color: blue;
+        }
+    
